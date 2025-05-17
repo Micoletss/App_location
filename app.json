@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs location access to track your device."
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "70b4394e-8990-4246-9c90-a72a45c3cd40"
+      }
+    }
+  }
+}
